@@ -504,6 +504,36 @@ height: 88px;
 .form {
     display: flex;
     flex-direction: column;
+    padding: 72px 24px 0;
+}
+
+.modal-header {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.75;
+
+    color: #8E8F99;
+}
+
+.form-input {
+    padding: 11px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.form-label {
+    margin-bottom: 8px;
 }
 
 /* main-portfolio (hidden h2)*/
