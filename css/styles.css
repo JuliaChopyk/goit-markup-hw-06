@@ -501,7 +501,10 @@ height: 88px;
     fill:#fff;
 }
 
-
+.form {
+    display: flex;
+    flex-direction: column;
+}
 
 /* main-portfolio (hidden h2)*/
 .portfolio {
