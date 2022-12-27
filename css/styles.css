@@ -607,18 +607,40 @@ height: 88px;
     appearance: none;
 }
 
+/* .checkbox-border {
+    display: flex;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid var(--dark-background-color);
+    border-radius: 2px;
+} */
+
 .label-checkbox {
     display: block;
 }
 
-.checkbox:checked ~ .form-checkbox-icon {
-    fill: var(--accent-color)
+.form-checkbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
+}
+
+.checkbox:checked + .form-checkbox-icon {
+
+border-color: transparent;
+background-color: var(--accent-color);
+background-image: url(../images/icons.svg#icon-vector);
+background-size: contain;
+background-origin: border-box;
 }
 
 .form-item-checkbox {
     position: relative;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 12px;
