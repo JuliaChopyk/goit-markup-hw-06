@@ -603,6 +603,18 @@ height: 88px;
     color: #8E8F99;
 }
 
+.checkbox {
+    appearance: none;
+}
+
+.label-checkbox {
+    display: block;
+}
+
+.checkbox:checked ~ .form-checkbox-icon {
+    fill: var(--accent-color)
+}
+
 .form-item-checkbox {
     position: relative;
     display: flex;
