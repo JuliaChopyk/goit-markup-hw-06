@@ -644,9 +644,9 @@ height: 88px;
 border: transparent;
 background-color: var(--accent-color);
 background-image: url(../images/vector.svg);
-background-size: contain;
 background-origin: border-box;
 background-repeat: no-repeat;
+background-position: center;
 }
 
 
@@ -920,8 +920,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--primary-button-text);
     background-color: var(--primary-button-style);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+    }
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
