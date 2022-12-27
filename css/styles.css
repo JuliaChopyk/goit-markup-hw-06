@@ -636,6 +636,7 @@ height: 88px;
     margin-right: 8px;
     border: 1.25px solid #2E2F42;
     border-radius: 2px;
+
 }
 
 .checkbox:checked + .form-checkbox-icon {
@@ -645,6 +646,7 @@ background-color: var(--accent-color);
 background-image: url(../images/vector.svg);
 background-size: contain;
 background-origin: border-box;
+background-repeat: no-repeat;
 }
 
 
