@@ -640,9 +640,9 @@ height: 88px;
 
 .checkbox:checked + .form-checkbox-icon {
 
-border-color: transparent;
+border: transparent;
 background-color: var(--accent-color);
-background-image: url(../images/check-icon.svg);
+background-image: url(../images/vector.svg);
 background-size: contain;
 background-origin: border-box;
 }
@@ -899,11 +899,15 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-btn {
-    padding: 8px 24px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 165px;
+    padding: 8px 24px;
     margin-left: 24px;
     border: 1px solid transparent;
     border-radius: 4px;
-    width: 165px;
+    
     cursor: pointer;
 
     font-weight: 500;
@@ -949,6 +953,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-subscribe {
-    
+    justify-self: center;
+    fill: #F4F4FD;
+    gap: 16px;
 }
 
