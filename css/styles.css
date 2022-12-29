@@ -528,12 +528,10 @@ height: 88px;
     font-size: 12px;
     line-height: 1.17;
     padding: 0;
+    margin-bottom: 8px;
 
     color: #8E8F99;
 }
-
-.form-item:not(:last-child) {
-    margin-bottom: 8px;}
 
 .input-icon-wrapper {
     position: relative;
@@ -595,7 +593,7 @@ height: 88px;
     height: 120px;
     resize: none;
     padding-left: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .form-input::placeholder {
